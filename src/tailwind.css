@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.filter-effect {
+    @apply filter brightness-100;
+    transition: filter 200ms;
+}
+
+.darken-hover:hover {
+    @apply brightness-90
+}
