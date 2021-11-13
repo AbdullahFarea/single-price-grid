@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- displays site properly based on user's device -->
+
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="./images/favicon-32x32.png"
+        />
+        <link rel="stylesheet" href="./css/main.css" />
+        <link
+            href="https://fonts.googleapis.com/css?family=Karla:200,300,regular,500,600,700,800,200italic,300italic,italic,500italic,600italic,700italic,800italic"
+            rel="stylesheet"
+        />
+        <title>Frontend Mentor | Single Price Grid Component</title>
+
+        <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    </head>
+    <body class="text-black font-Karla bg-light-gray">
+        <main>
+            <div class="container min-h-screen flex items-center">
+                <div
+                    class="
+                        card
+                        mx-auto
+                        w-4/5
+                        bg-white
+                        rounded-md
+                        my-8
+                        overflow-auto
+                        sm:w-96
+                        lg:w-3/5
+                        lg:grid
+                        lg:grid-cols-2
+                    "
+                >
+                    <section class="top-section col-span-2 px-6 py-8  lg:p-12">
+                        <h1 class="title text-xl font-bold text-cyan mb-6">
+                            Join our community
+                        </h1>
+                        <div
+                            class="
+                                guarantee
+                                font-semibold
+                                text-lg text-bright-yellow
+                                mb-6
+                            "
+                        >
+                            30-day, hassle-free money back guarantee
+                        </div>
+                        <p
+                            class="
+                                description
+                                text-base text-grayish-blue
+                                leading-7
+                            "
+                        >
+                            Gain access to our full library of tutorials along
+                            with expert code reviews. Perfect for any developers
+                            who are serious about honing their skills.
+                        </p>
+                    </section>
+                    <section class="left-section px-6 py-8 bg-cyan text-white lg:p-12">
+                        <h1 class="title text-xl font-bold mb-6">
+                            Monthly Subscription
+                        </h1>
+                        <h2
+                            class="
+                                price
+                                text-4xl
+                                font-bold
+                                flex
+                                items-center
+                                gap-2
+                                mb-2
+                            "
+                        >
+                            &dollar;29
+                            <span class="text-base font-light text-light-gray"
+                                >per month</span
+                            >
+                        </h2>
+                        <p class="description font-light">
+                            Full access for less than &dollar;1 a day
+                        </p>
+                        <button
+                            class="
+                                sign-up
+                                mx-auto
+                                w-full
+                                shadow-2xl
+                                py-4
+                                text-center
+                                font-bold
+                                block
+                                bg-bright-yellow
+                                text-white
+                                rounded-md
+                                mt-8
+                                filter-effect
+                                darken-hover
+                            "
+                        >
+                            Sign Up
+                        </button>
+                    </section>
+                    <section class="right-section py-8 px-6 bg-cyan text-white opacity-90 lg:p-12">
+                        <div class="title font-bold text-xl mb-4">Why Us</div>
+                        <ul class="reasons text-light-gray text-sm lg:text-base">
+                            <li>Tutorials by industry experts</li>
+                            <li>Peer &amp; expert code review</li>
+                            <li>Coding exercises</li>
+                            <li>Access to our GitHub repos</li>
+                            <li>Community forum</li>
+                            <li>Flashcard decks</li>
+                            <li>New videos every week</li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>
